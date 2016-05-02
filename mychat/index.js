@@ -13,7 +13,7 @@ var numUsers = 0;
 
 io.on('connection', function (socket) {
 
-
+// START любой url по port:4000
 
     var ID =  (socket.id).toString().substr(0, 5);
 
